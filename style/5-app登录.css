@@ -1,0 +1,112 @@
+body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.list-header{
+    background: #f1f1f1;
+}
+.list-header .m_search .bt{
+    font-size: 0.24rem;
+    margin-left: 3.4rem;
+    margin-top: 0.10rem;
+    float: left;
+}
+.list-header .m_search a{
+    font-size: 0.24rem;
+    float: right;
+    margin-top: 0.10rem;
+    margin-right: 0.20rem;
+}
+.list-header .m_left {
+    width: 0.24rem;
+    height: 0.24rem;
+    position: absolute;
+    top: 0.24rem;
+    left: 0.20rem;
+    font-size: 0.32rem;
+}
+/*内容开始*/
+.neuro{
+    background: #ffffff;
+    height: 570px;
+    position: relative;
+    top: 0.88rem;
+}
+.neuro .wrapper{
+    padding-top: 0.30rem;
+    background: #ffffff;
+    /*border-top: 1px solid #999999;*/
+}
+.neuro .wrapper span{
+    margin-left: 0.40rem;
+    font-size: 0.24rem;
+
+}
+.neuro .register-one{
+    height: 0.70rem;
+    line-height: 0.70rem;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+.neuro .register-two{
+    height: 0.70rem;
+    line-height: 0.70rem;
+    border-bottom: 1px solid #dddddd;
+}
+.neuro .register-one input {
+    font-size: 0.24rem;
+    color: #CFDAED;
+    margin-left: 0.40rem;
+}
+.neuro .register-two input {
+    font-size: 0.24rem;
+    color: #999;
+    margin-left: 0.40rem;
+}
+.neuro .register-two img{
+    width: 0.90rem;
+    height: 0.40rem;
+    float: right;
+    margin-top: 0.10rem;
+}
+.neuro .register-two .little{
+    width: 1.6rem;
+    height: 0.70rem;
+    /*background: red;*/
+    float: right;
+    font-size: 0.24rem;
+    border-left: 1px solid #dddddd;
+}
+.neuro .register-two .little a{
+    margin-left: 0.20rem;
+    color: #999;
+}
+.neuro .register button{
+    width: 520px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 0.40rem;
+    background: red;
+    border: none;
+    border-radius: 0.20rem;
+    font-size: 0.30rem;
+    color: #ffffff;
+}
+.neuro .register .else{
+    float: right;
+    margin-top: 0.10rem;
+    margin-right: 0.20rem;
+}
+.neuro .register .else img{
+    width: 0.20rem;
+    height: 0.20rem;
+    display: inline;
+    margin-top: 0.05rem;
+}
+.neuro .register .else p{
+    font-size: 0.24rem;
+    display: inline;
+    color: #666;
+}
+/*内容结束*/

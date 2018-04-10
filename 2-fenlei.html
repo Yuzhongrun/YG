@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>分类</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/2-app分类.css">
+    <link rel="stylesheet" href="style/swiper-4.1.6.min.css">
+    <script src="js/adaptive.js"></script>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".tabs li").click(function() {
+                $(".tabs li a").removeClass("current");
+                $(this).children("a").addClass("current");
+
+                $(".list-right").hide(0);
+                $(".list-right:eq(" + $(this).index() + ")").show(0);
+            });
+        });
+    </script>
+</head>
+<body>
+    <!--头部开始-->
+    <div class="list-header">
+        <div class="m_search">
+            <form action="">
+                <input type="text" placeholder="搜索商品">
+                <input type="button" value="&#xe6fe;" class="iconfont">
+            </form>
+        </div>
+    </div>
+    <!--头部结束-->
+    <!--分类开始-->
+    <section class="list m_layout">
+        <div class="list-left">
+            <ul class="tabs">
+                <li><a href="#" class="current">推荐</a></li>
+                <li><a href="#">顶级品牌</a></li>
+                <li><a href="#">奢华品牌</a></li>
+                <li><a href="#">轻奢品牌</a></li>
+                <li><a href="#">时尚潮牌</a></li>
+                <li><a href="#">智能国产</a></li>
+                <li><a href="#">表带</a></li>
+                <li><a href="#">推荐</a></li>
+                <li><a href="#">顶级品牌</a></li>
+                <li><a href="#">奢华品牌</a></li>
+                <li><a href="#">轻奢品牌</a></li>
+                <li><a href="#">时尚潮牌</a></li>
+                <li><a href="#">智能国产</a></li>
+                <li><a href="#">表带</a></li>
+            </ul>
+        </div>
+        <div class="list-right clearfix" style="display: block;">
+            <div class="con">
+                <div class="con-1"></div>
+                <p class="tit">热门品牌</p>
+                <div class="con-2"></div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="images/7.png" alt="">
+                            <p>天梭</p>
+                        </a>
+                    </li>
+                    <li class="center">
+                        <a href="#">
+                            <img src="images/8.png" alt="">
+                            <p>爱宝时</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/9.png" alt="">
+                            <p>浪琴</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/9.png" alt="">
+                            <p>欧米茄</p>
+                        </a>
+                    </li>
+                    <li class="center">
+                        <a href="#">
+                            <img src="images/9.png" alt="">
+                            <p>赫柏林</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/9.png" alt="">
+                            <p>迪沃斯</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="3-liebiao.html">
+                            <img src="images/13.png" alt="">
+                            <p>机械表</p>
+                        </a>
+                    </li>
+                    <li class="center">
+                        <a href="#">
+                            <img src="images/14.png" alt="">
+                            <p>石英表</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/15.png" alt="">
+                            <p>钢带手表</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="list-right clearfix" style="display: none;">
+            <div class="con">
+                <div class="con-1"></div>
+                <p class="tit">热门品牌2</p>
+                <div class="con-2"></div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="images/7.png" alt="">
+                            <p>天梭</p>
+                        </a>
+                    </li>
+                    <li class="center">
+                        <a href="#">
+                            <img src="images/8.png" alt="">
+                            <p>爱宝时</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/9.png" alt="">
+                            <p>浪琴</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/9.png" alt="">
+                            <p>欧米茄</p>
+                        </a>
+                    </li>
+                    <li class="center">
+                        <a href="#">
+                            <img src="images/9.png" alt="">
+                            <p>赫柏林</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/9.png" alt="">
+                            <p>迪沃斯</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/13.png" alt="">
+                            <p>机械表</p>
+                        </a>
+                    </li>
+                    <li class="center">
+                        <a href="#">
+                            <img src="images/14.png" alt="">
+                            <p>石英表</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/15.png" alt="">
+                            <p>钢带手表</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="list-right clearfix" style="display: none;">
+            <div class="con">
+                <div class="con-1"></div>
+                <p class="tit">热门品牌 3</p>
+                <div class="con-2"></div>
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="images/7.png" alt="">
+                            <p>天梭</p>
+                        </a>
+                    </li>
+                    <li class="center">
+                        <a href="#">
+                            <img src="images/8.png" alt="">
+                            <p>爱宝时</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/9.png" alt="">
+                            <p>浪琴</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/9.png" alt="">
+                            <p>欧米茄</p>
+                        </a>
+                    </li>
+                    <li class="center">
+                        <a href="#">
+                            <img src="images/9.png" alt="">
+                            <p>赫柏林</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/9.png" alt="">
+                            <p>迪沃斯</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/13.png" alt="">
+                            <p>机械表</p>
+                        </a>
+                    </li>
+                    <li class="center">
+                        <a href="">
+                            <img src="images/14.png" alt="">
+                            <p>石英表</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/15.png" alt="">
+                            <p>钢带手表</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--分类结束-->
+    <!--底部开始-->
+    <footer>
+        <ul>
+            <li>
+                <a href="1-app.html">
+                    <img src="images/shouye.png" alt="">
+                    <p>首页</p>
+                </a>
+            </li>
+            <li>
+                <a href="2-fenlei.html">
+                    <img src="images/fenlei.png" alt="">
+                    <p>分类</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/zixun.png" alt="">
+                    <p>咨询</p>
+                </a>
+            </li>
+            <li>
+                <a href="4-gouwuche.html">
+                    <img src="images/gouwuche.png" alt="">
+                    <p>购物车</p>
+                </a>
+            </li>
+            <li>
+                <a href="5-denglu.html">
+                    <img src="images/wode.png" alt="">
+                    <p>我的</p>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <!--底部结束-->
+</body>
+</html>
